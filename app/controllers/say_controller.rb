@@ -1,5 +1,6 @@
 class SayController < ApplicationController
   def index
+  	render(:action => 'hello')
   end
 
   def hello
